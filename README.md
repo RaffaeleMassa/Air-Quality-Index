@@ -1,6 +1,8 @@
 # Air-Quality-Index
 start2impact project
 LINK: https://airpollutionindicator.netlify.app/
+
+#Descrizione-progetto
 Terzo progetto fatto in start2impact, questa volta dovevo creare un'app utile a misurare l'inquinamento in una città.
 Come prima cosa ho creato un file html e lo stile ad esso collegato. Ho inserito latitudine e longitudine e un button che serve per avviare l'applicazione. 
 
