@@ -23,7 +23,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin")
           {
             test: /\.css$/,
             use: ["style-loader", "css-loader"],
-            template: path.resolve(__dirname, './build/styles.css')
+          
           },
         ],
     },
