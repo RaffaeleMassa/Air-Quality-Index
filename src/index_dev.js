@@ -1,5 +1,5 @@
 import axios from "axios"
-import css from /src/styles.css
+
 
 async function requestPollutionData() {
   
