@@ -1,8 +1,6 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin")
-
-  const Dotenv = require('dotenv-webpack')
-
-  const path = require('path')
+const Dotenv = require('dotenv-webpack')
+const path = require('path')
 
  
   module.exports = (env, argv) => {
@@ -22,7 +20,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin")
         rules: [
           {
             test: /\.css$/,
-            use: ["style-loader", "css-loader"],
+            use: ["style-loader", "css-loader"]
           
           },
         ],
