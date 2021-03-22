@@ -61,10 +61,10 @@ const setValuesOfAir = airData => {
 	if (aqi<50) {
 	
         airStat = "Good"
-		color = "rgb(44, 255, 2)"
+		color = rgb(44, 255, 2)
 	} else if  (aqi<100){
         airStat = "Moderate"
-        color = "rgb(109, 121, 4)"
+        color = rgb(109, 121, 4)
     } else if (aqi<150) {
         airStat = "Unhealthy for S.g."
         color = "rgb(109, 121, 4)"
