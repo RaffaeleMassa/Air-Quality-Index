@@ -35,7 +35,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin")
       plugins: [
       
         new HtmlWebpackPlugin({
-          title: "Pollution Forecast",
+          title: "Air Pollution Index",
           template: path.resolve(__dirname, './src/index.html'),
         }),
         
