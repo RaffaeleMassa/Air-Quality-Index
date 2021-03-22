@@ -34,9 +34,7 @@
 	width: 270px;
 }
 
-.loc-input:invalid {
-	border: 3px solid #f50404;
-}
+
 
 .search-btn {
 	padding: 10px 14px;
