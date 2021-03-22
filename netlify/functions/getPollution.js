@@ -5,7 +5,7 @@ exports.handler = async event => {
   const API_KEY =  process.env.API_KEY
 
   
-  const response = await axios.get(/* ... */)
+  const response = await axios.get(`https://api.waqi.info/feed/geo:${lat};${lon}/?token=${API_KEY}`)
 
  
   const pass = (body) => {
