@@ -52,7 +52,7 @@ const getAirQuality = async (lat, lon) => {
 }
 
 const setValuesOfAir = airData => {
-	const aqi = airData.data.aqi
+	aqi =  _.get(airData, 'data.aqi', 0); 
 	let airStat = "", color = ""
 
 	// Set Air Quality Index
